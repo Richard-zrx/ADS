@@ -1,0 +1,126 @@
+# Reference word-cloud config — point these at your own pipeline run (Step 2 OUTPUT_BASE).
+# The phase5 parquet is named train_clustered_sorted_<N>.parquet, where <N> is your
+# training-set row count; replace NUMROWS below accordingly. chosen_clusters are example
+# cluster ids from a sample run — adjust them to clusters in your own data.
+clusters_parquet: outputs/ads_run/phase5/train_clustered_sorted_NUMROWS.parquet
+output_dir: outputs/ads_run/phase5/wordcloud
+
+num_top_clusters: 64
+chosen_clusters: [54, 33, 40, 1, 7, 25, 42, 6, 17, 52, 24, 4, 29, 12, 21, 60]
+grid_cols: 4
+distinctiveness_top_k: 30
+
+ngram_range: [1, 1]
+max_df: 0.85
+min_df: 3
+sublinear_tf: true
+
+top_terms_per_cluster: 20
+top_terms_in_bar: 10
+top_terms_in_cloud: 10
+
+extra_stopwords:
+  - find
+  - given
+  - let
+  - show
+  - prove
+  - proves
+  - proved
+  - value
+  - values
+  - number
+  - numbers
+  - equal
+  - equals
+  - equation
+  - equations
+  - problem
+  - question
+  - solution
+  - answer
+  - write
+  - calculate
+  - determine
+  - real
+  - integer
+  - integers
+  - positive
+  - negative
+  - possible
+  - exists
+  - exist
+  - every
+  - any
+  - such
+  - where
+  - when
+  - then
+  - also
+  - must
+  - may
+  - can
+  - need
+  - know
+  - think
+  - therefore
+  - thus
+  - hence
+  - which
+  - that
+  - this
+  - these
+  - those
+  - one
+  - two
+  - three
+  - four
+  - five
+  - six
+  - seven
+  - eight
+  - nine
+  - ten
+  - using
+  - use
+  - used
+  - get
+  - gets
+  - got
+  - make
+  - makes
+  - made
+  - take
+  - takes
+  - taken
+  - case
+  - cases
+  - many
+  - much
+  - more
+  - less
+  - most
+  - least
+  - first
+  - second
+  - third
+  - last
+  - way
+  - ways
+  - point
+  - points
+  - set
+  - sets
+  - assume
+  - suppose
+  - if
+  - so
+  - now
+  - some
+  - same
+
+figure_dpi: 200
+wordcloud_width: 600
+wordcloud_height: 400
+grid_figsize: [22, 24]
+random_seed: 42

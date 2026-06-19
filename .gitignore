@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+/env/
+
+# Generated data / artifacts (NOT distributed)
+# NOTE: these are anchored with a leading "/" so they only match the repo-root
+# output dirs, not source packages like verl/verl/experimental/dataset/.
+/dataset/
+/outputs/
+/checkpoints/
+/merged_ckpts/
+verl/checkpoints/
+verl/outputs/
+*.parquet
+*.npy
+
+# HuggingFace / experiment caches & logs
+.cache/
+wandb/
+logs/
+*.log
+
+# Paper drafts (not distributed)
+*.pdf
+
+# Editor / OS
+.claude/
+.DS_Store
+.idea/
+.vscode/

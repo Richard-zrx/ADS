@@ -1,0 +1,25 @@
+# Reference embedding-extraction config (Phase 1).
+# NOTE: scripts/build_ads_dataset.sh generates its own config inline; this file is
+# kept as a documented example of the schema. Paths are relative to the repo root.
+model_name_or_path: RoadQAQ/Qwen2.5-Math-1.5B-16k-think
+input_path: dataset/train.parquet
+input_format: parquet
+text_field: prompt
+id_field: sample_id
+output_dir: outputs/ads_run
+max_length: 4096
+batch_size: 16
+dtype: bfloat16
+pooling_methods:
+  - mean
+num_proc: 8
+save_format: npy
+normalize_embeddings: false
+prompt_text_mode: user_only
+input_text_mode: question_plus_cot
+datasets_cache_dir: .cache/huggingface/datasets
+skip_if_exists: true
+overwrite: false
+export_parquet_aux: false
+expected_num_processes: 4
+seed: 42

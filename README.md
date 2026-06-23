@@ -165,10 +165,10 @@ ads/
 If you find ADS helpful, please cite the paper and star this repo, thanks!
 
 ```bibtex
-@article{ads2026,
+@article{xu2026learning,
   title   = {Learning at the Right Pace: Adaptive Data Scheduling Improves LLM Reinforcement Learning},
-  author  = {The ADS Authors},
-  journal = {arXiv preprint},
+  author  = {Xu, Zicheng and Zhang, Ruixuan and Chuang, Yu-Neng and Lou, Xiuyi and Le, Hoang Anh Duy and Gal, Oren and Szalay, Alexander S and Xu, Zhaozhuo and Wang, Guanchu and Braverman, Vladimir},
+  journal = {arXiv preprint arXiv:2606.22305},
   year    = {2026}
 }
 ```

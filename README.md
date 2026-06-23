@@ -24,8 +24,8 @@
 </div>
 
 ## 🎉 Updates
-
-- **[06/2026]** Initial open-source release: the full ADS data pipeline + the GRPO training entrypoint that plugs the ADS sampler into [verl](https://github.com/volcengine/verl).
+- **[06/23/2026]** 📣 Released our Paper on arXiv. See [here](https://arxiv.org/abs/2606.22305).
+- **[06/20/2026]** Initial open-source release: the full ADS data pipeline + the GRPO training entrypoint that plugs the ADS sampler into [verl](https://github.com/volcengine/verl).
 
 ## 💡 About
 

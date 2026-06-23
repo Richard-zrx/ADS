@@ -3,7 +3,7 @@
 # ADS: Adaptive Data Scheduling for Data-Efficient LLM Reinforcement Learning
 
 <p>
-  <a href="#"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper"></a>
+  <a href="https://arxiv.org/abs/2606.22305"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper"></a>
   <a href="https://github.com/Richard-zrx/ADS"><img src="https://img.shields.io/badge/Code-GitHub-181717.svg?logo=github" alt="GitHub"></a>
   <a href="https://huggingface.co/RoadQAQ/Qwen2.5-Math-1.5B-16k-think"><img src="https://img.shields.io/badge/🤗%20Model-Qwen2.5--Math--1.5B-yellow.svg" alt="Model"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>

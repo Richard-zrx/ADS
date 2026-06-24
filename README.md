@@ -60,9 +60,6 @@
 |                       | DOTS+RR  | 64.23 | 18.47 | 15.28 | 17.16 | 49.22 | 13.34 | 9.20 | 26.70 |
 |                       | **ADS**  | **67.56** | **18.96** | **18.33** | **18.58** | **55.57** | **17.84** | **13.56** | **30.06** `(+7.68)` |
 
-- **Consistent across scales** — ADS is the best method on 1.5B, 4B, and 7B backbones.
-- **Strong OOD generalization** — gains hold on **GPQA-D** and **MMLU-Pro**, so ADS strengthens general reasoning, not just math patterns.
-- **Objective-agnostic** — ADS improves over the baseline on top of OPD, DAPO, and GSPO (Table 2 in the paper).
 
 ## 🚀 Installation
 

@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python">
 </p>
 
-<em>Train reasoning LLMs with far fewer rollouts by scheduling <strong>which</strong> problems to learn from, and <strong>at what difficulty</strong>, throughout RL.</em>
+<em>Train reasoning LLMs by scheduling <strong>which</strong> problems to learn from, and <strong>at what difficulty</strong>, throughout RL.</em>
 
 <p>
   <a href="#-about">About</a> ·
